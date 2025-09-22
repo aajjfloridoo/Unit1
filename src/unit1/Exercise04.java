@@ -16,7 +16,7 @@ public class Exercise04 {
 		System.out.println("Escriba su segunda nota: ");
 		nota2 = reader.nextInt();
 		// Calculamos la media 
-		media = (nota1 + nota2) / 2.0;
+		media = (nota1 + nota2) / 2;
 		// Enseñamos la media por pantalla
 		System.out.println("\nSu media aritmética es: " + media);
 		//Cerramos reader
