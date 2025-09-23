@@ -6,7 +6,7 @@ public class Exercise06 {
 
 	public static void main(String[] args) {
 		// Declaración de la variable del numero 1
-		double numero1;ç
+		double numero1;
 		// Declaración de la variable del numero 2
 		double numero2; 
 		// Declaración de la variable de la suma
