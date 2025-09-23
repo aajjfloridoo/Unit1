@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Exercise02 {
 
 	public static void main(String[] args) {
-		// Declaramos las variables
-		int edad, edad1;
+		// Declaramos la variable de la edad primera
+		int edad;
+		// Declaramos la variable de la edad segunda
+		int edad1;
 		// Iniciamos Scanner
 		Scanner sc = new Scanner(System.in);
 		// Pedimos por teclado edad
@@ -22,4 +24,3 @@ public class Exercise02 {
 	}
 
 }
-

@@ -5,8 +5,12 @@ import java.util.Scanner;
 public class Exercise03 {
 
 	public static void main(String[] args) {
-		// Declaramos variables
-		int añoActual, añoNacimiento, edad;
+		// Declaramos variable del año actual
+		int añoActual;
+		// Declaramos variable del año de nacimiento
+		int añoNacimiento;
+		// Declaramos variable de la edad
+		int edad;
 		// Iniciamos Scanner
 		Scanner sc = new Scanner(System.in);
 		// Pedimos año actual por teclado
@@ -26,4 +30,3 @@ public class Exercise03 {
 	}
 
 }
-

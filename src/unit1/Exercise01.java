@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise01 {
 
 	public static void main(String[] args) {
-		// declaramos las variables
+		// Declaramos las variables
 		int numero;
 		// Iniciamos Scanner
 		Scanner reader = new Scanner(System.in);
@@ -20,4 +20,3 @@ public class Exercise01 {
 	}
 
 }
-
