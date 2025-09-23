@@ -15,16 +15,13 @@ public class Exercise09 {
 		System.out.println("Indique su edad: ");
 		// Asimismo, leemos y guardamos con el Scanner
 		edad = sc.nextInt();
-		// Si edad es mayor o igual a 18
-		if (edad >= 18) {
-			// verdadero es true
-			verdadero = true;
-		}
-		// Si verdadero es igual igual a true, imprimimos que es mayor de edad
-		if (verdadero == true) {
+		// Establecemos la condicion para que sea mayor de edad
+		verdadero = edad>=18;
+		// Si verdadero, imprimimos que es mayor de edad
+		if (verdadero) {
 			System.out.println("Usted es mayor de edad.");
 		} else {
-			// Si verdadero es no es igual igual a true, imprimimos que es no mayor de edad
+			// Si no verdadero, imprimimos que no es mayor de edad
 			System.out.println("Usted no es mayor de edad.");
 		}
 		// Cerramos Scanner
