@@ -37,5 +37,7 @@ public class Exercise14 {
 		System.out.println("Nota del boletin: " + media1);
 		// Imprimimos por pantalla la nota del expediente
 		System.out.println("Nota del expediente: " + media2);
+		// Cerramos Scanner
+		sc.close();
 	}
 }
