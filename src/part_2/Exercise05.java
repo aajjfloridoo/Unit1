@@ -5,24 +5,32 @@ import java.util.Scanner;
 public class Exercise05 {
 
 	public static void main(String[] args) {
-
+		
+		// Declaramos la variable de los segundos
 		double segundos;
+		// Declaramos la variable de las horas
 		double horas;
+		// Declaramos la variable de los minutos
 		double minutos;
 
 		// Iniciamos el Scanner
 		Scanner sc = new Scanner(System.in);
 
-		// Pedimos por pantalla el numero
+		// Pedimos por pantalla el numero de segundos
 		System.out.println("Indique el numero de segundos: ");
-		// Pedimos que lo lea Scanner
+		// La guardamos con Scanner
 		segundos = sc.nextDouble();
 		
+		// Calculamos las horas
 		horas = segundos / 3600;
+		// Calculamos los minutos
 		minutos = segundos / 60;
 		
+		// Mostramos resultados por pantalla
 		System.out.println("Horas: " + horas + "\nMinutos: " + minutos + "\nSegundos: " + segundos);
 		
+		// Cerramos Scanner
 		sc.close();
 	}
+
 }
