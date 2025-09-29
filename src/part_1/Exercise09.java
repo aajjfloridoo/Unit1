@@ -1,4 +1,4 @@
-package unit1;
+package part_1;
 
 import java.util.Scanner;
 
@@ -18,12 +18,7 @@ public class Exercise09 {
 		// Establecemos la condicion para que sea mayor de edad
 		verdadero = edad>=18;
 		// Si verdadero, imprimimos que es mayor de edad
-		if (verdadero) {
-			System.out.println("Usted es mayor de edad.");
-		} else {
-			// Si no verdadero, imprimimos que no es mayor de edad
-			System.out.println("Usted no es mayor de edad.");
-		}
+		System.out.println("Es mayor de edad:" + verdadero);
 		// Cerramos Scanner
 		sc.close();
 	}

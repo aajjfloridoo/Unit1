@@ -1,4 +1,4 @@
-package unit1;
+package part_1;
 
 import java.util.Scanner;
 
@@ -8,9 +8,7 @@ public class Exercise10 {
 		// Declaración de la variable del numero
 		int numero;
 		// Declaración de la variable del resto
-		int resto;
-		// Declaración de la variable booleana que guarda si el numero es par o no
-		boolean verdadero = false;
+		boolean resto;
 		// Iniciamos el Scanner
 		Scanner sc = new Scanner(System.in);
 		// Pedimos por teclado el número
@@ -18,13 +16,9 @@ public class Exercise10 {
 		// Asimismo, leemos y guardamos con el Scanner
 		numero = sc.nextInt();
 		// Calculamos el resto de dividir entre 2
-		resto = numero % 2;
+		resto = numero % 2 == 0;
 		// Evaluamos y enseñamos el resultado por pantalla
-		if (resto == 0) {
-			System.out.println("Su numero es par, ya que el resto es 0");
-		} else {
-			System.out.println("Su numero no es par, ya que el resto es " + resto);
-		}
+		System.out.println("¿El número es par?: " + resto);
 		// Cerramos Scanner
 		sc.close();
 	}
