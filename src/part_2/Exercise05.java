@@ -22,9 +22,11 @@ public class Exercise05 {
 		segundos = sc.nextDouble();
 		
 		// Calculamos las horas
-		horas = segundos / 3600;
+		horas = (int)(segundos / 3600);
 		// Calculamos los minutos
-		minutos = segundos / 60;
+		minutos = (int)((segundos % 3600) / 60);
+		// Calculamos los minutos
+		segundos = segundos % 60;
 		
 		// Mostramos resultados por pantalla
 		System.out.println("Horas: " + horas + "\nMinutos: " + minutos + "\nSegundos: " + segundos);
